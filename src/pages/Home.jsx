@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import BistroBossSection from "../components/BistroBossSection";
 import Category from "../components/Category";
 
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Category></Category>
+            <BistroBossSection></BistroBossSection>
         </div>
     );
 };
