@@ -3,6 +3,7 @@ import BistroBossSection from "../components/BistroBossSection";
 import Category from "../components/Category";
 import Featured from "../components/Featured";
 import PopularMenu from "../components/PopularMenu";
+import Testimonials from "../components/Testimonials";
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <BistroBossSection></BistroBossSection>
             <PopularMenu></PopularMenu>
             <Featured></Featured>
+            <Testimonials></Testimonials>
         </div>
     );
 };
